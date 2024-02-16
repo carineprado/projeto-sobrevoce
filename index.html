@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre você</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Queremos te conhecer!</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <form id="formulario">
+                <p>
+                    Qual o seu nome?
+                    <input type="text" name="nome" id="nome">
+                </p>
+                <p>
+                    Quanto anos você tem?
+                    <input type="number" name="idade" id="idade">
+                </p>
+                <p>
+                    Qual linguagem de programação você está estudando?
+                    <input type="text" name="linguagem" id="linguagem">
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+            </form>
+        </div>
+        <div id="msg">
+            Preencha os dados acima!
+        </div>
+    </section>
+    <footer>
+        <p>
+            Criado por <a href="https://github.com/carineprado" target="_blank">Carine Prado</a> | Desafio #7DaysOfCode
+        </p>      
+    </footer>
+    <script src="script.js"></script>    
+</body>
+</html>
