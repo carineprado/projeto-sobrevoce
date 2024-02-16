@@ -7,7 +7,7 @@ function verificar() {
     if (nome.length == 0 || idade.length == 0 || linguagem.length == 0) {
         window.alert('Erro: Faltam dados! Preencha todos os campos e tente novamente.')
     } else {
-        msg.innerHTML = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem} !`
+        msg.innerHTML = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!`
         
         setTimeout(function() {
             var resposta = prompt(`Você gosta de estudar ${linguagem} ? Responda com o número 1 para SIM ou 2 para NÃO.`)
